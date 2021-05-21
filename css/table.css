@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #55e5f0;;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #0eb4b9!important;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%; 
+  border-collapse: collapse;
+  overflow-x:auto;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 16px;
+}
+tr{
+	background: #0eb4b9;
+  }
+tr:nth-child(even) {
+  background-color: #0eb4b9;
+}
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(34, 154, 175)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(222, 223, 235)!important;
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+nav{
+  background-color: #855309;
+  background-image: linear-gradient(315deg, #7a7623 0%, #d60f8a 74%);
+}
+.nav-link{
+	margin-right: 15px;
+	color:#a6c7f1;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+.navbar-brand{
+	color: #4C4B4B;
+	letter-spacing: 0.5px;
+}
+
+h2{
+	color: #fd0404;
+	letter-spacing: 0.5px;
+	font-family: raleway;
+}
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#4C4B4B;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
+
